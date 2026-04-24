@@ -1,44 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./src/output.css">
 </head>
+
 <body>
     <header class="bg-[#212121]">
-    <div class="max-w-[1200px] m-auto flex flex-col lg:flex-row justify-around p-[20px] items-center gap-5 lg:gap-0">
-        <div class="flex items-center gap-[20px] lg:gap-[30px]">
-            <img src="./src/img/Refreshoes_LOGO копия 1.png" alt="" class="w-[100px] lg:w-auto">
-            <div class="lg:block hidden">
-                <p class="text-[16px] w-[140px] text-[white]">Время работы:</p>
-                <p class="text-[16px] text-[white]">11:00 до 20:00</p>
+        <div
+            class="max-w-[1200px] m-auto flex flex-col lg:flex-row justify-around p-[20px] items-center gap-5 lg:gap-0">
+            <div class="flex items-center gap-[20px] lg:gap-[30px]">
+                <img src="./src/img/Refreshoes_LOGO копия 1.png" alt="" class="w-[100px] lg:w-auto">
+                <div class="lg:block hidden">
+                    <p class="text-[16px] w-[140px] text-[white]">Время работы:</p>
+                    <p class="text-[16px] text-[white]">11:00 до 20:00</p>
+                </div>
+                <img class="hidden lg:block w-[120px] h-[50px]" src="./src/img/Group 1102.png" alt="">
             </div>
-            <img class="hidden lg:block w-[120px] h-[50px]" src="./src/img/Group 1102.png" alt="">
+            <div class="flex flex-col lg:flex-row gap-[15px] lg:gap-[30px] items-center text-center lg:text-left">
+                <div class="flex items-center gap-3">
+                    <img class="w-[28px] h-[28px] lg:w-[34px] lg:h-[34px]"
+                        src="./src/img/free-icon-font-marker-3916880 1.png" alt="">
+                    <p class="w-full lg:w-[232px] text-[white] text-[14px] lg:text-base">Lorem Ipsum is simply dummy
+                        text of the printing.</p>
+                </div>
+                <button class="text-[white] w-[220px] lg:w-[200px] h-[45px] rounded-[28px] bg-[#9B6D44] font-bold">📞 +7
+                    (999) 999-09-99</button>
+            </div>
         </div>
-        <div class="flex flex-col lg:flex-row gap-[15px] lg:gap-[30px] items-center text-center lg:text-left">
-            <div class="flex items-center gap-3">
-                <img class="w-[28px] h-[28px] lg:w-[34px] lg:h-[34px]" src="./src/img/free-icon-font-marker-3916880 1.png" alt="">
-                <p class="w-full lg:w-[232px] text-[white] text-[14px] lg:text-base">Lorem Ipsum is simply dummy text of the printing.</p>
+
+
+        <header class="bg-[#9B6D44]">
+            <div
+                class="flex flex-col lg:flex-row gap-[15px] lg:gap-[40px] justify-center items-center p-[15px] lg:p-[10px]">
+                <p class="text-[white] text-[18px] lg:text-[20px] font-bold">Главная</p>
+                <p class="text-[white] text-[18px] lg:text-[20px] font-bold">Фото галерея</p>
+                <p class="text-[white] text-[18px] lg:text-[20px] font-bold">Видео галерея</p>
+                <p class="text-[white] text-[18px] lg:text-[20px] font-bold">Наши работы</p>
             </div>
-            <button class="text-[white] w-[220px] lg:w-[200px] h-[45px] rounded-[28px] bg-[#9B6D44] font-bold">📞 +7 (999) 999-09-99</button>
+        </header>
+
+        <main>
+            <img src="./src/img/Group 14.png" alt="" class="w-full h-auto">
+        </main>
+        <div class=" min-h-screen text-white p-5 lg:p-20 font-sans">
+            <h1 class="text-[35px] lg:text-[60px] font-bold mb-5">Заголовок H1 Font Inter 60px</h1>
+
+            <div class="mb-10 lg:mb-20">
+                <p class="text-[white] text-[20px]">Хлебные крошки</p>
+                <p class="text-[#cacaca] text-[20px]">Главная - Главная - Главная</p>
+            </div>
+
+            <div class="flex flex-col lg:flex-row justify-center gap-10 items-center lg:items-start">
+
+                <div class="bg-[#212121] p-8 lg:p-12 rounded-[25px] w-full lg:w-[480px] shadow-xl/40">
+                    <h2 class="text-[#9B6D44] text-[32px] lg:text-[45px] font-bold mb-10 text-center">Заполните поля
+                    </h2>
+
+                    <div class="flex flex-col gap-5">
+                        <input type="text" placeholder="Имя"
+                            class="bg-transparent border border-gray-600 rounded-full h-[55px] px-8 outline-none focus:border-[#9B6D44] transition-all">
+                        <input type="text" placeholder="Телефон"
+                            class="bg-transparent border border-gray-600 rounded-full h-[55px] px-8 outline-none focus:border-[#9B6D44] transition-all">
+                        <input type="email" placeholder="E-mail"
+                            class="bg-transparent border border-gray-600 rounded-full h-[55px] px-8 outline-none focus:border-[#9B6D44] transition-all">
+
+                        <div class="flex items-center gap-3 px-2 mt-2">
+                            <input type="checkbox" id="agree" class="w-4 h-4 accent-[#9B6D44]">
+                            <label for="agree" class="text-[10px] text-gray-400">Соглашаюсь на обработку персональных
+                                данных</label>
+                        </div>
+
+                        <button
+                            class="bg-[#9B6D44] h-[55px] rounded-full font-bold text-white mt-4 text-[18px] hover:bg-[#855c3a] transition-all">
+                            Отправить
+                        </button>
+                    </div>
+                </div>
+
+                <div class="bg-[#212121] p-8 lg:p-12 rounded-[25px] w-full lg:w-[480px] shadow-xl/40">
+                    <h2 class="text-[#9B6D44] text-[32px] lg:text-[45px] font-bold mb-10 text-center">Авторизации</h2>
+
+                    <div class="flex flex-col gap-5">
+                        <input type="email" placeholder="E-mail"
+                            class="bg-transparent border border-gray-600 rounded-full h-[55px] px-8 outline-none focus:border-[#9B6D44] transition-all">
+                        <div class="relative">
+                            <input type="password" placeholder="Пароль"
+                                class="w-full bg-transparent border border-gray-600 rounded-full h-[55px] px-8 outline-none focus:border-[#9B6D44] transition-all">
+                            <span class="absolute right-6 top-1/2 -translate-y-1/2 text-gray-500">👁</span>
+                        </div>
+
+                        <p class="text-[#9B6D44] text-center text-sm cursor-pointer hover:underline mt-2">Восстановить
+                            пароль</p>
+
+                        <button
+                            class="bg-[#9B6D44] h-[55px] rounded-full font-bold text-white mt-4 text-[18px] hover:bg-[#855c3a] transition-all">
+                            Отправить
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-[1200px] m-auto  text-white p-5 lg:p-20 font-sans">
+            <div class="flex flex-col lg:flex-row justify-between gap-10">
+
+                <div class="flex-1 max-w-[600px]">
+                    <h2 class="text-[20px] lg:text-[28px] mb-8 font-medium">элементы чекбоксов, радио кнопок, выбор из
+                        списка</h2>
+
+                    <div class="flex flex-col gap-4 mb-10">
+                        <label class="flex items-center gap-3 cursor-pointer text-[14px] text-gray-300">
+                            <input type="checkbox" class="w-4 h-4  border-gray-600 rounded  bg-[#9B6D44]">
+                            Соглашаюсь на обработку персональных данных
+                        </label>
+                        <label class="flex items-center gap-3 cursor-pointer text-[14px] text-gray-300">
+                            <input type="checkbox" checked
+                                class="w-4 h-4 bg-transparent border-gray-600 rounded outline-none accent-[#9B6D44]">
+                            Соглашаюсь на обработку персональных данных
+                        </label>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-4 lg:w-[350px]">
+                    <button class="bg-[#9B6D44] h-[65px] rounded-full font-bold text-[18px] text-white/90">
+                        Отправить
+                    </button>
+                    <button class="bg-[#46311F] h-[65px] rounded-full font-bold text-[18px] text-white/90">
+                        Отмена
+                    </button>
+                </div>
+
+            </div>
+        </div><div class="flex flex-col lg:flex-row gap-[30px] lg:gap-[120px] ml-0 lg:ml-[235px] p-[20px] lg:p-0">
+    <div class="flex flex-col gap-[15px]">
+        <div class="flex gap-[10px] items-center">
+            <input type="radio" name="group1" class="w-4 h-4 border-gray-600 rounded accent-[#9B6D44]">
+            <p class="text-[18px] text-[white]">Радио-кнопка 1</p>
+        </div>
+        <div class="flex gap-[10px] items-center">
+            <input type="radio" name="group1" class="w-4 h-4 border-gray-600 rounded accent-[#9B6D44]">
+            <p class="text-[18px] text-[white]">Радио-кнопка 1</p>
+        </div>
+        <div class="flex gap-[10px] items-center">
+            <input type="radio" name="group1" class="w-4 h-4 border-gray-600 rounded accent-[#9B6D44]">
+            <p class="text-[18px] text-[white]">Радио-кнопка 1</p>
         </div>
     </div>
-</header>
-
-<header class="bg-[#9B6D44]">
-    <div class="flex flex-col lg:flex-row gap-[15px] lg:gap-[40px] justify-center items-center p-[15px] lg:p-[10px]">
-        <p class="text-[white] text-[18px] lg:text-[20px] font-bold">Главная</p>
-        <p class="text-[white] text-[18px] lg:text-[20px] font-bold">Фото галерея</p>
-        <p class="text-[white] text-[18px] lg:text-[20px] font-bold">Видео галерея</p>
-        <p class="text-[white] text-[18px] lg:text-[20px] font-bold">Наши работы</p>
+    <div class="flex flex-col gap-[15px]">
+        <div class="flex gap-[10px] items-center">
+            <input type="radio" name="group2" class="w-4 h-4 border-gray-600 rounded accent-[#9B6D44]">
+            <p class="text-[18px] text-[white]">Радио-кнопка 1</p>
+        </div>
+        <div class="flex gap-[10px] items-center">
+            <input type="radio" name="group2" class="w-4 h-4 border-gray-600 rounded accent-[#9B6D44]">
+            <p class="text-[18px] text-[white]">Радио-кнопка 1</p>
+        </div>
+        <div class="flex gap-[10px] items-center">
+            <input type="radio" name="group2" class="w-4 h-4 border-gray-600 rounded accent-[#9B6D44]">
+            <p class="text-[18px] text-[white]">Радио-кнопка 1</p>
+        </div>
     </div>
-</header>
+</div>
 
-<main>
-    <img src="./src/img/Group 14.png" alt="" class="w-full h-auto">
-</main>
+    <div class="max-w-[1200px] m-auto p-10 min-h-screen text-white font-sans">
+    <h3 class="text-[20px] mb-6">выбор из списка</h3>
+    
+    <div class="flex flex-col lg:flex-row gap-6">
+        <div class="relative w-full lg:w-[350px]">
+            <select class="w-full bg-transparent border border-[white] rounded-sm h-[50px] px-4 outline-none appearance-none cursor-pointer">
+                <option class="bg-[#1A1A1A]">Lorem ipsum</option>
+            </select>
+            <span class="absolute right-4 top-1/2 -translate-y-1/2 text-[12px] pointer-events-none">▼</span>
+        </div>
+        <div class="w-full lg:w-[350px] relative">
+            <div class="border border-[white] rounded-sm h-[50px] px-4 flex items-center justify-between cursor-pointer">
+                <span>Lorem ipsum</span>
+                <span class="text-[12px]">▲</span>
+            </div>
+            <div class="absolute w-full mt-[-1px] border border-[white] bg-[#1A1A1A] z-10 rounded-sm mt-[10px]">
+                <div class="flex flex-col">
+                    <p class="p-3 px-4 hover:bg-[#252525] cursor-pointer text-[17px]">Lorem ipsum, dolor smit</p>
+                    <p class="p-3 px-4 hover:bg-[#252525] cursor-pointer text-[17px]">Lorem ipsum, dolor smit</p>
+                    <p class="p-3 px-4 hover:bg-[#252525] cursor-pointer text-[17px]">Lorem ipsum, dolor smit</p>
+                    <p class="p-3 px-4 hover:bg-[#252525] cursor-pointer text-[17px]">Lorem ipsum, dolor smit</p>
+                    <p class="p-3 px-4 hover:bg-[#252525] cursor-pointer text-[17px]">Lorem ipsum, dolor smit</p>
+                    <p class="p-3 px-4 hover:bg-[#252525] cursor-pointer text-[17px]">Lorem ipsum, dolor smit</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
 
+    </header>
 </body>
+
 </html>
